@@ -1,0 +1,63 @@
+
+.red{
+    background: red;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    right: 0;
+    z-index: -9999;
+    top: 0;
+    border-top-left-radius:100px ;
+    border-bottom-left-radius:100px ;
+    
+}
+.yellow{
+    background:yellow;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    right: 0;
+    top: -70px;
+    z-index: -9999;
+    border-top-right-radius:100px ;
+    border-bottom-right-radius:100px ;
+    
+}
+.container{
+    position: relative;
+    z-index: 4;
+}
+.jum{
+    padding-top: 100px;
+    font-size: 3em;
+}
+
+.lil i{
+    font-size: 14pt;
+    border-radius: 50px;
+    
+}
+.lil i:hover{
+    background: #CCC;
+    cursor: pointer;
+}
+ .lil .fa-facebook{
+    border: .5px solid #ccc;
+    padding: 15px 20px;
+}
+ .lil .fa-google-plus{
+    border: .5px solid #ccc;
+    padding: 15px 13px;
+}
+ .lil .fa-linkedin{
+    border: .5px solid #ccc;
+    padding: 15px 16px;
+}
+
+.rin icon{
+    padding-top: 10px;
+
+}
+.icon i{
+    
+}
